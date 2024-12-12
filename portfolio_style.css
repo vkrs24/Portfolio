@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+}
+
+.left_section {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  border: solid;
+  border-left: 1px;
+}
+
+.right_section {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  border: solid;
+  border-left: 1px;
+  background-color: rgb(255, 255, 255);
+}
+
+.name {
+  font-size: 23px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 55%;
+  border: solid;
+  border-width: 20px;
+  padding: 20px;
+  margin: auto;
+}
+
+.my_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border: solid;
+  border-width: 2px;
+}
+
+.home_link {
+  font-size: 23px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.r_s_center_content {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: auto;
+}
+
+.intro_1 {
+  font-family: serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.intro_2,
+.intro_3 {
+  font-size: 28px;
+  font-family: serif;
+  line-height: 35px;
+  font-weight: lighter;
+}
+
+.btnn {
+  padding: 10px;
+  color: white;
+  border-radius: 14px;
+  border: solid;
+  border-width: 1px;
+  background-color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  transition: background-color 0.5s;
+}
+
+.btnn:hover {
+  cursor: pointer;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.social_medias_section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.images {
+  width: 28px;
+  height: 28px;
+  object-fit: fill;
+}
+
+a::after,
+.home_link::after {
+  content: "";
+  width: 0;
+  height: 1.5px;
+  background-color: black;
+  margin: auto;
+  display: block;
+}
+
+a:hover::after,
+.home_link:hover::after {
+  width: 100%;
+  transition: width 0.4s linear;
+}
+
+.copyrights {
+  margin: auto;
+  font-size: 18px;
+  font-family: serif;
+  margin-top: 15%;
+}
