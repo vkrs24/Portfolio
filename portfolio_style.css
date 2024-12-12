@@ -11,7 +11,7 @@ a {
 .content {
   display: flex;
   flex-direction: row;
-  height: 40%;
+  height: auto;
 }
 
 .left_section {
@@ -47,8 +47,8 @@ a {
 .picture {
   display: flex;
   flex-direction: column;
-  width: 65%;
-  height: 55%;
+  width: 75%;
+  height: 60%;
   border: solid;
   border-width: 20px;
   padding: 20px;
