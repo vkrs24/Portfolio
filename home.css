@@ -70,8 +70,6 @@ body {
   display: flex;
   flex-direction: row;
   width: 50%;
-  align-items: center;
-  justify-content: end;
 }
 
 .right_section a {
@@ -92,26 +90,26 @@ body {
   flex-direction: row;
   width: 100%;
   height: auto;
-  justify-content: space-between;
   margin-top: 9vh;
   border-bottom: solid;
   border-top: solid;
   border-width: 1px;
-  background-color: rgb(255, 255, 255);
 }
 
 .left_section_1 {
   display: flex;
   flex-direction: row;
   width: 40%;
+  margin: auto;
+  margin-left: 3%;
 }
 
 .left_section_1 .image1 {
-  width: 60%;
+  width: 65%;
   padding: 20px;
   border: solid;
   border-width: 2px;
-  margin: 40px;
+  margin: 20px;
 }
 
 .my_img {
@@ -127,13 +125,11 @@ body {
   flex-direction: row;
   width: 60%;
   position: relative;
-  justify-content: center;
 }
 
 .text_intro {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 80%;
   margin: auto;
 }
@@ -154,8 +150,85 @@ body {
   font-size: 24px;
   position: absolute;
   bottom: 60px;
-  right: 30px;
+  right: 40px;
 }
 
 .section_2 {
+  width: 100%;
+  border-bottom: solid;
+  border-top: solid;
+  margin-top: 8vh;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left_s2 {
+}
+
+.ls2_content {
+  width: 28vw;
+  padding: 30px;
+}
+
+.s2_intro1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.s2_intro2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.middle_s2 {
+  margin: auto;
+  background-color: black;
+}
+
+.mdls2_content {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  padding: 10px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: start;
+}
+
+.logo .vkrs_logo {
+  width: 55px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: fill;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.8);
+}
+
+.number {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  width: 80%;
+}
+
+.mdls2_intro1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 30px;
+  width: 80%;
+}
+
+.mdl_image {
+  width: 75%;
+}
+
+.mdl_img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  object-position: center;
 }
