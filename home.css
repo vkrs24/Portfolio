@@ -27,7 +27,7 @@ body {
   justify-content: space-around;
 }
 
-.logo {
+.head-logo {
   width: 6%;
 }
 
@@ -154,81 +154,140 @@ body {
 }
 
 .section_2 {
-  width: 100%;
-  border-bottom: solid;
-  border-top: solid;
-  margin-top: 8vh;
-  border-width: 1px;
   display: flex;
-  flex-direction: row;
+  padding: 20px;
+  border-bottom: solid;
+  justify-content: ;
+  border-top: solid;
+  border-width: 1px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .left_s2 {
+  width: 30%;
 }
 
 .ls2_content {
-  width: 28vw;
-  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
 }
 
 .s2_intro1 {
-  font-family: "Times New Roman", Times, serif;
   font-size: 40px;
-  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .s2_intro2 {
+  margin-top: 15px;
+  font-size: 23px;
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
   line-height: 30px;
 }
 
-.middle_s2 {
-  margin: auto;
-  background-color: black;
+.right_s2 {
+  width: 65%;
+  display: flex;
+  flex: 1;
 }
 
-.mdls2_content {
-  display: flex;
-  flex-direction: column;
-  background-color: aqua;
-  padding: 10px;
-  align-items: center;
+.rigths2_content1 {
+  width: 55%;
+  margin-top: 10vh;
+}
+
+.inside_content {
+  margin: auto;
+  width: 60%;
+  background-color: rgba(225, 226, 226, 0.268);
+  border-radius: 20px;
+  padding: 25px;
 }
 
 .logo {
-  display: flex;
-  justify-content: start;
-}
-
-.logo .vkrs_logo {
   width: 55px;
   height: 50px;
+}
+
+.vkrs_logo {
+  width: 100%;
+  height: 100%;
+  border: solid;
   border-radius: 50%;
-  object-fit: fill;
-  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.8);
+  border-width: 0.2px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.rights2_content {
+  display: flex;
+  flex-direction: column;
 }
 
 .number {
+  font-size: 60px;
   font-family: "Times New Roman", Times, serif;
-  font-size: 70px;
-  width: 80%;
+  margin-top: 5px;
 }
 
-.mdls2_intro1 {
+.rights2_intro1 {
+  font-size: 22px;
+  width: 85%;
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
   line-height: 30px;
-  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
-.mdl_image {
-  width: 75%;
-}
-
-.mdl_img {
+.rignts2_image {
   width: 100%;
-  height: 100%;
+}
+
+.rights2_img {
+  width: 100%;
   object-fit: fill;
-  object-position: center;
+  border: none;
+  border-radius: 10px;
+}
+
+.rights2_content2 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rs2_image {
+  width: 55%;
+  margin-bottom: 10vh;
+  margin-top: 1vh;
+}
+
+.rs2_img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.rs2_bottom_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.star_symbol {
+  font-size: 50px;
+}
+
+.rs2_bottom_intro {
+  font-size: 20px;
+  margin-left: 1vw;
+  line-height: 30px;
+}
+
+.rs2_bottom_row1,
+.rs2_bottom_row2 {
+  display: flex;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
 }
