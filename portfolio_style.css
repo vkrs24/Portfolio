@@ -66,6 +66,7 @@ a {
 .r_s_center_content {
   display: flex;
   flex-direction: column;
+  padding: 35px;
   width: 30vw;
 }
 
