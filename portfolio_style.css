@@ -4,56 +4,54 @@ body {
 }
 
 a {
-  margin: 0;
+  text-decoration: none;
   color: black;
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  height: auto;
   background-color: #f8f8f8;
+  overflow: hidden;
 }
 
 .left_section {
   display: flex;
   width: 50%;
   flex-direction: column;
-  position: relative;
   align-items: center;
+  justify-content: center;
   border: solid;
   border-left: 1px;
+  position: relative;
 }
 
 .right_section {
   display: flex;
   width: 50%;
   flex-direction: column;
-  position: relative;
+  justify-content: center;
   align-items: center;
   border: solid;
   border-left: 1px;
-  background-color: #f8f8f8;
 }
 
 .name {
-  font-size: 23px;
+  font-size: 28px;
   font-family: sans-serif;
   font-weight: bold;
+  margin-bottom: 5vh;
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 5%;
+  left: 5%;
 }
 
 .picture {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  height: 60%;
+  width: 33vw;
+  height: 50%;
   border: solid;
   border-width: 20px;
   padding: 20px;
-  margin: auto;
 }
 
 .my_image {
@@ -65,20 +63,10 @@ a {
   border-width: 2px;
 }
 
-.home_link {
-  font-size: 23px;
-  font-family: sans-serif;
-  font-weight: bold;
-  position: absolute;
-  right: 40px;
-  top: 40px;
-}
-
 .r_s_center_content {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  margin: auto;
+  width: 30vw;
 }
 
 .intro_1 {
@@ -127,22 +115,6 @@ a {
   width: 24px;
   height: 24px;
   object-fit: fill;
-}
-
-a::after,
-.home_link::after {
-  content: "";
-  width: 0;
-  height: 1.5px;
-  background-color: black;
-  margin: auto;
-  display: block;
-}
-
-a:hover::after,
-.home_link:hover::after {
-  width: 100%;
-  transition: width 0.4s linear;
 }
 
 .copyrights {
