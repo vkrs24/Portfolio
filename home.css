@@ -37,6 +37,7 @@ a {
 .back_image {
   width: 40px;
   border-radius: 100%;
+  margin-top:0.5vh;
   transition: box-shadow 0.2s;
 }
 
