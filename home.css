@@ -22,6 +22,7 @@ a {
   align-items: center;
   justify-content: center;
   z-index: 2;
+  position:fixed;
   background-color: #f8f8f8;
   border-bottom: solid;
   border-bottom-width: 1px;
@@ -86,6 +87,7 @@ a {
   border-top: solid;
   border-bottom: solid;
   border-width: 1px;
+  margin-top:8vh;
   background-color: #f8f8f8;
 }
 
@@ -579,6 +581,6 @@ a {
 }
 
 .mail_text {
-  font-size: 260%;
+  font-size: 220%;
   color: white;
 }
