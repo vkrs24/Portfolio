@@ -26,16 +26,6 @@ a {
   position: relative;
 }
 
-.right_section {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: solid;
-  border-left: 1px;
-}
-
 .name {
   font-size: 28px;
   font-family: sans-serif;
@@ -44,6 +34,41 @@ a {
   position: absolute;
   top: 5%;
   left: 5%;
+}
+
+.right_section {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-left: 1px;
+  position: relative;
+}
+
+.home {
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 5vh;
+  position: absolute;
+  top: 5%;
+  right: 6%;
+}
+
+.home::after {
+  content: "";
+  width: 0;
+  display: block;
+  background-color: black;
+  height: 1.5px;
+  margin: auto;
+}
+
+.home:hover::after {
+  width: 100%;
+  transition: width 0.4s linear;
 }
 
 .picture {
