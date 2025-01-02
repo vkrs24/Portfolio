@@ -1,9 +1,10 @@
-html, body {
-  overflow-x:hidden;
+html,
+body {
+  overflow-x: hidden;
 }
 
 body {
-  margin: 0px;
+  margin: 0%;
   padding: 0px;
   box-sizing: border-box;
   background-color: #ffffff;
@@ -22,7 +23,7 @@ a {
   align-items: center;
   justify-content: center;
   z-index: 2;
-  position:fixed;
+  position: fixed;
   background-color: #f8f8f8;
   border-bottom: solid;
   border-bottom-width: 1px;
@@ -32,13 +33,14 @@ a {
   display: flex;
   width: 10%;
   justify-content: center;
+  align-items: center;
 }
 
 .back_image {
   width: 40px;
   border-radius: 100%;
-  margin-top:0.5vh;
   transition: box-shadow 0.2s;
+  margin-top: 0.5vh;
 }
 
 .back_image:hover {
@@ -54,6 +56,7 @@ a {
   display: flex;
   width: 90%;
   justify-content: space-around;
+  align-items: center;
 }
 
 .links_section a {
@@ -72,6 +75,7 @@ a {
   display: flex;
   width: 20%;
   justify-content: center;
+  align-items: center;
 }
 
 .right_section a {
@@ -87,8 +91,8 @@ a {
   height: auto;
   border-top: solid;
   border-bottom: solid;
+  margin-top: 8vh;
   border-width: 1px;
-  margin-top:8vh;
   background-color: #f8f8f8;
 }
 
@@ -280,6 +284,7 @@ a {
 .rs2_bottom_content {
   display: flex;
   flex-direction: column;
+  width: 93%;
 }
 
 .star_symbol {
@@ -293,11 +298,10 @@ a {
   color: #434343;
 }
 
-.rs2_bottom_row1,
-.rs2_bottom_row2 {
+.rs2_bottom_row {
   display: flex;
   margin-top: 1vh;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 
 .section2_bottom {
