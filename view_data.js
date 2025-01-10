@@ -7,7 +7,6 @@ const view_data = [
   },
   {
     image: "images/amazon.png",
-<<<<<<< HEAD
     link: "https://vkrs24.github.io/Amazon-e-commerce-Website/amazon.html",
     title: "Amazon ECommerce Website",
     desc: "This project helps me to understand the javascript concepts that is required for a basic websites to generate the content dynamically and making webpages intreactive.",
@@ -29,27 +28,11 @@ const view_data = [
     link: "https://vkrs24.github.io/Rock_Paper_Scissors_Game/",
     title: "Rock Paper Scissors Game",
     desc: "This one helps me to understand the frontend technologies like Javascript, HTML5 and CSS with responsive design.",
-=======
-    link: "",
-    title: "Amazon ECommerce Website",
-    desc: "This project helps me to understand the javascript concepts that is required for a basic websites to generate the content dynamically and making webpages intreactive.",
->>>>>>> 976a5aac2c5b2c4670111220affdf93767308a59
   },
+
   {
     image: "images/todo.png",
-    link: "",
-    title: "Todo List Webpage",
-    desc: "It provides me understanding of how to create and delete an item in a webpage.",
-  },
-  {
-    image: "images/rps.png",
-    link: "",
-    title: "Rock Paper Scissors Game",
-    desc: "This one helps me to understand the frontend technologies like Javascript, HTML5 and CSS with responsive design.",
-  },
-  {
-    image: "images/todo.png",
-    link: "",
+    link: "https://vkrs24.github.io/Todo-list/",
     title: "Todo List Webpage",
     desc: "It provides me understanding of how to create and delete an item in a webpage.",
   },
