@@ -149,3 +149,46 @@ a {
   font-family: serif;
   margin-top: 10%;
 }
+
+@media screen and (max-width: 550px) {
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .name {
+    width: 80%;
+    position: relative;
+    left: 0;
+    top: 2vh;
+    text-align: center;
+  }
+  .picture {
+    width: 60%;
+    height: 40vh;
+    margin-bottom: 2vh;
+  }
+  .right_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .home {
+    margin-top: 2vh;
+    position: relative;
+    left: 0;
+  }
+  .r_s_center_content {
+    width: 90%;
+  }
+}
