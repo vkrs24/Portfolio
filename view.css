@@ -63,7 +63,7 @@ body {
   align-items: center;
   padding: 2px 12px 2px 12px;
   border-radius: 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 
 .s3_dot_symbol {
@@ -97,6 +97,7 @@ body {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
   overflow: hidden;
   border-radius: 10px;
+  background-color: #ffffff;
 }
 
 .image {
@@ -108,7 +109,7 @@ body {
 .image img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .bottom_section {
