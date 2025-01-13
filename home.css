@@ -96,6 +96,7 @@ a {
   display: flex;
   flex-direction: row;
   height: auto;
+  padding: 20px;
   border-top: solid;
   border-bottom: solid;
   margin-top: 8vh;
@@ -140,7 +141,6 @@ a {
 .text_intro {
   display: flex;
   flex-direction: column;
-  width: 80%;
   margin: auto;
 }
 
@@ -207,7 +207,6 @@ a {
 .right_s2 {
   width: 65%;
   display: flex;
-  flex: 1;
 }
 
 .rigths2_content1 {
@@ -597,20 +596,29 @@ a {
 }
 
 @media screen and (max-width: 820px) {
+  .left_section a i {
+    font-size: 100%;
+  }
+  .links_section a {
+    font-size: 70%;
+  }
+  .right_section a {
+    margin-right: 2vw;
+    font-size: 70%;
+  }
   .section_1 {
     display: flex;
-    justify-content: center;
-    width: 100%;
     padding: 20px;
+    text-align: center;
   }
   .intro1 {
-    font-size: 700%;
+    font-size: 600%;
   }
   .left_section_1 {
     display: none;
   }
   .right_section_1 {
-    width: 100%;
+    width: 90%;
     padding: 20px;
   }
   .scroll_down {
@@ -622,14 +630,18 @@ a {
     display: flex;
     flex-direction: column;
   }
+  .ls2_content {
+    margin: 0;
+  }
   .left_s2 {
     width: 100%;
   }
   .right_s2 {
-    width: 100%;
-    display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
+  }
+  .inside_content {
+    width: 80%;
   }
   .rigths2_content1,
   .rights2_content2 {
@@ -638,14 +650,11 @@ a {
   .rs2_image {
     display: none;
   }
-  .inside_content {
-    width: 90%;
-  }
-  .rs2_bottom_row {
-    align-items: start;
+  .star_symbol {
+    vertical-align: top;
   }
   .rs2_bottom_intro {
-    align-self: center;
+    vertical-align: top;
   }
   .project_boxes {
     display: flex;
