@@ -190,5 +190,13 @@ a {
   }
   .r_s_center_content {
     width: 90%;
+    align-items: center;
+  }
+
+  .btnn {
+    width: 35vw;
+  }
+  .social_medias_section {
+    width: 80%;
   }
 }
