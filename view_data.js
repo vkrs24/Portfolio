@@ -36,6 +36,12 @@ const view_data = [
     title: "Todo List Webpage",
     desc: "It provides me understanding of how to create and delete an item in a webpage.",
   },
+  {
+    image: "images/age_cal.png",
+    link: "https://vkrs24.github.io/Age_Calculator/",
+    title: "Age Calculator",
+    desc: "It provides me understanding of how to create an responsive design and use javascript basic concepts.",
+  },
 ];
 
 let project_html = "";
