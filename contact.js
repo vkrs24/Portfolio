@@ -27,6 +27,7 @@ function send_email(event) {
       document.querySelector(".lname").value = "";
       document.querySelector(".mail").value = "";
       document.querySelector("#message").value = "";
+      document.querySelector(".subject").value = "";
     })
     .catch((err) => {
       console.error("EmailJS Error:", err);
