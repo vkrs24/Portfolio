@@ -45,6 +45,8 @@ body {
 
 .form_container {
   background-color: rgb(255, 255, 255);
+  border: solid;
+  border-width: 1px;
   padding: 2rem;
   display: flex;
   text-align: center;
@@ -60,7 +62,7 @@ textarea {
   font-size: 100%;
   padding: 0.5rem;
   border: solid;
-  border-width: 1px;
+  border-width: 1.5px;
   border-radius: 5px;
   margin-top: 3vh;
 }
