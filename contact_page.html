@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8831de0bd0.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "jT61-Zc0kFSEp8Dz0",
+            });
+        })();
+    </script>
+    <script src="contact.js"></script>
     <link rel="stylesheet" href="contact.css">
     <title>Drop me a line</title>
 </head>
@@ -19,23 +29,23 @@
     </div>
     <div class="container">
         <div class="form_container">
-            <form action="">
+            <form>
                 <div class="head">Contact Me!</div>
                 <div class="name">
-                    <input type="text" placeholder="First Name" required>
-                    <input type="text" placeholder="Last Name" required>
+                    <input class="fname" type="text" placeholder="First Name" required>
+                    <input class="lname" type="text" placeholder="Last Name" required>
                 </div>
                 <div class="other_section">
-                    <div class="name">
-                        <input type="email" placeholder="Email Address" required>
-                        <input type="text" placeholder="Subject" required>
+                    <div>
+                        <input class="mail" type="email" placeholder="Email Address" required>
+                        <input class="subject" type="text" placeholder="Subject" required>
                     </div>
                     <div class="textarea_div">
-                        <textarea name="message" id="#message" placeholder="Your Message" required></textarea>
+                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
                     </div>
 
                 </div>
-                <button class="send_btn">Send Message</button>
+                <button class="send_btn js_send_btn" onclick="send_email(event)">Send Message</button>
             </form>
         </div>
     </div>
