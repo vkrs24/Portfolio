@@ -32,21 +32,24 @@
             <form>
                 <div class="head">Contact Me!</div>
                 <div class="name">
-                    <input class="fname" type="text" placeholder="First Name" required>
-                    <input class="lname" type="text" placeholder="Last Name" required>
+                    <input class="fname" type="text" placeholder="First Name">
+                    <input class="lname" type="text" placeholder="Last Name">
                 </div>
                 <div class="other_section">
                     <div>
                         <input class="mail" type="email" placeholder="Email Address" required>
-                        <input class="subject" type="text" placeholder="Subject" required>
+                        <input class="subject" type="text" placeholder="Subject">
                     </div>
                     <div class="textarea_div">
-                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                        <textarea name="message" id="message" placeholder="Your Message"></textarea>
                     </div>
 
                 </div>
                 <button class="send_btn js_send_btn" onclick="send_email(event)">Send Message</button>
             </form>
+        </div>
+        <div class="alert_msg" style="display: none;">
+
         </div>
     </div>
 </body>

@@ -91,3 +91,35 @@ textarea {
   border: none;
   border-radius: 5px;
 }
+.msg_cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert_msg {
+  position: absolute;
+  background-color: #ffffff;
+  height: auto;
+  padding: 1rem;
+  width: 12rem;
+  border: none;
+  border-radius: 1px;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.9);
+}
+
+.fa-red,
+.i_red_text {
+  color: red;
+  font-size: 140%;
+}
+.fa-red,
+.fa-green {
+  margin-right: 0.5rem;
+}
+
+.fa-green,
+.i_green_text {
+  color: rgb(0, 151, 30);
+  font-size: 130%;
+}
