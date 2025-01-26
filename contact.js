@@ -1,10 +1,11 @@
 function update_message(value) {
-  document.querySelector(".alert_msg").innerHTML = value;
-  document.querySelector(".alert_msg").style.display = "block";
+  let alertBox = document.querySelector(".alert_msg");
+  alertBox.innerHTML = value;
+  alertBox.style.display = "block";
 
   // Hide message after 3 seconds
   setTimeout(() => {
-    document.querySelector(".alert_msg").style.display = "none";
+    alertBox.style.display = "none";
   }, 3000);
 }
 
@@ -12,16 +13,35 @@ function send_email(event) {
   event.preventDefault();
   console.log("Sending email...");
 
-  let name =
-    document.querySelector(".fname").value +
-    " " +
-    document.querySelector(".lname").value;
+  // Store input fields in variables
+  let fname = document.querySelector(".fname");
+  let lname = document.querySelector(".lname");
+  let mail = document.querySelector(".mail");
+  let message = document.querySelector("#message");
+  let subject = document.querySelector(".subject");
+
+  // Combine first and last name
+  let name = `${fname.value} ${lname.value}`.trim();
+
+  // Input validation
+  if (
+    !fname.value ||
+    !lname.value ||
+    !mail.value ||
+    !message.value ||
+    !subject.value
+  ) {
+    update_message(
+      `<div class="msg_cnt"><i class="fa-solid fa-circle-exclamation fa_orange"></i><div class="i_orange_text">Please fill in all fields</div></div>`
+    );
+    return;
+  }
 
   const parameters = {
     name: name,
-    email: document.querySelector(".mail").value,
-    message: document.querySelector("#message").value,
-    subject: document.querySelector(".subject").value,
+    email: mail.value,
+    message: message.value,
+    subject: subject.value,
   };
 
   const serviceId = "service_t4vcaqh";
@@ -35,12 +55,12 @@ function send_email(event) {
         `<div class="msg_cnt"><i class="fa-solid fa-circle-check fa-green"></i><div class="i_green_text">Successfully sent</div></div>`
       );
 
-      // Clear input fields
-      document.querySelector(".fname").value = "";
-      document.querySelector(".lname").value = "";
-      document.querySelector(".mail").value = "";
-      document.querySelector("#message").value = "";
-      document.querySelector(".subject").value = "";
+      // Clear input fields after successful submission
+      fname.value = "";
+      lname.value = "";
+      mail.value = "";
+      message.value = "";
+      subject.value = "";
     })
     .catch((err) => {
       console.error("EmailJS Error:", err);
