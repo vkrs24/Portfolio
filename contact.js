@@ -21,7 +21,7 @@ function send_email(event) {
     name: name,
     email: document.querySelector(".mail").value,
     message: document.querySelector("#message").value,
-    subject:document.querySelector(".subject").value;
+    subject: document.querySelector(".subject").value,
   };
 
   const serviceId = "service_t4vcaqh";
