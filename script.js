@@ -11,5 +11,5 @@ document.querySelector(".blog").addEventListener("click", () => {
 });
 
 document.querySelector(".cont").addEventListener("click", () => {
-  window.location.href = "contact_page.html";
+  window.location.href = "Home_page.html#contact";
 });
