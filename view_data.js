@@ -42,6 +42,12 @@ const view_data = [
     title: "Age Calculator",
     desc: "It provides me understanding of how to create an responsive design and use javascript basic concepts.",
   },
+  {
+    image: "images/notes.png",
+    link: "https://vkrs24.github.io/Web-Notes/",
+    title: "Web Notes",
+    desc: "It provides me understanding of how to create an responsive design and use javascript event listeners concepts.",
+  },
 ];
 
 let project_html = "";
