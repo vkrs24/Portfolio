@@ -48,6 +48,12 @@ const view_data = [
     title: "Web Notes",
     desc: "It provides me understanding of how to create an responsive design and use javascript event listeners concepts.",
   },
+  {
+    image: "images/weather.png",
+    link: "https://vkrs24.github.io/Weather_App/",
+    title: "Weather Website",
+    desc: "It provides me understanding of how to create an responsive design and how to use fetch API in javascript.",
+  },
 ];
 
 let project_html = "";
