@@ -416,6 +416,7 @@ a {
 .project_name {
   margin-top: 2vh;
   margin-left: 2px;
+  text-align: center;
   font-size: 20px;
   font-weight: 600;
   font-family: "Times New Roman", Times, serif;
