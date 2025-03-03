@@ -196,6 +196,20 @@ a {
   font-family: "Times New Roman", Times, serif;
 }
 
+.resume_dwn_btn a button {
+  background-color: white;
+  text-align: center;
+  font-size: 120%;
+  padding: 0.7rem;
+  border: solid;
+  border-width: 1px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #434343;
+  cursor: pointer;
+}
+
 .s2_intro2 {
   margin-top: 15px;
   font-size: 23px;
