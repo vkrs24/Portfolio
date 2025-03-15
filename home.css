@@ -196,6 +196,14 @@ a {
   font-family: "Times New Roman", Times, serif;
 }
 
+.s2_intro2 {
+  margin-top: 15px;
+  font-size: 23px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 30px;
+  color: #434343;
+}
+
 .resume_dwn_btn button {
   background-color: white;
   text-align: center;
@@ -214,12 +222,8 @@ a {
   background-color: #dedbdb;
 }
 
-.s2_intro2 {
-  margin-top: 15px;
-  font-size: 23px;
-  font-family: "Times New Roman", Times, serif;
-  line-height: 30px;
-  color: #434343;
+header {
+  color: #0e0d0d;
 }
 
 .right_s2 {
