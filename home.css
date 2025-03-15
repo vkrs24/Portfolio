@@ -196,7 +196,7 @@ a {
   font-family: "Times New Roman", Times, serif;
 }
 
-.resume_dwn_btn a button {
+.resume_dwn_btn button {
   background-color: white;
   text-align: center;
   font-size: 120%;
@@ -208,6 +208,10 @@ a {
   margin-bottom: 15px;
   color: #434343;
   cursor: pointer;
+}
+
+.resume_dwn_btn button:hover {
+  background-color: #dedbdb;
 }
 
 .s2_intro2 {
