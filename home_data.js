@@ -13,15 +13,6 @@ const proj_data = [
   },
 ];
 
-function handleDownload() {
-  const link = document.createElement("a");
-  link.href = "Files/Vasanthakumar_Durai_Resume.pdf";
-  link.download = "Vasanthakumar_D_Resume";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
-
 let home_project_html = "";
 
 proj_data.forEach((data) => {

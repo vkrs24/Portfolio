@@ -196,18 +196,7 @@ a {
   font-family: "Times New Roman", Times, serif;
 }
 
-<<<<<<< HEAD
-.s2_intro2 {
-  margin-top: 15px;
-  font-size: 23px;
-  font-family: "Times New Roman", Times, serif;
-  line-height: 30px;
-  color: #434343;
-}
-
-=======
->>>>>>> db210bb7b814835ff37c40b773dd8fd4279aebff
-.resume_dwn_btn button {
+.resume_dwn_btn a button {
   background-color: white;
   text-align: center;
   font-size: 120%;
@@ -221,21 +210,12 @@ a {
   cursor: pointer;
 }
 
-.resume_dwn_btn button:hover {
-  background-color: #dedbdb;
-}
-
-<<<<<<< HEAD
-header {
-  color: #0e0d0d;
-=======
 .s2_intro2 {
   margin-top: 15px;
   font-size: 23px;
   font-family: "Times New Roman", Times, serif;
   line-height: 30px;
   color: #434343;
->>>>>>> db210bb7b814835ff37c40b773dd8fd4279aebff
 }
 
 .right_s2 {
