@@ -8,7 +8,7 @@ const view_data = [
   {
     image: "images/credit.png",
     link: "https://vkrs24.github.io/Smart-Credit-Card-Website/",
-    title: "Smart Credit Website- July 2025",
+    title: "Smart Credit Website- Jul 2025",
     desc: "Designed a Web page, a exercise to showcase my front-end skills with its technology like HTML, CSS, JavaScript. Gained experience in responsive design.",
   },
   {
