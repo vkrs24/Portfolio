@@ -1,5 +1,17 @@
 const view_data = [
   {
+    image: "images/card.png",
+    link: "https://vkrs24.github.io/Blog-Card/",
+    title: "Blog Card - Jul 2025",
+    desc: "This one is my web design using HTML, CSS and Gained experience in responsive design.",
+  },
+  {
+    image: "images/credit.png",
+    link: "https://vkrs24.github.io/Smart-Credit-Card-Website/",
+    title: "Smart Credit Website- July 2025",
+    desc: "Designed a Web page, a exercise to showcase my front-end skills with its technology like HTML, CSS, JavaScript. Gained experience in responsive design.",
+  },
+  {
     image: "images/ListenX.png",
     link: "https://vkrs24.github.io/ListenX/index.html",
     title: "ListenX - Mar 2025",
